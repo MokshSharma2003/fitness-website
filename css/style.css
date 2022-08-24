@@ -453,13 +453,14 @@ section {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
   
   }
   .imj{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
   }
   
 }
