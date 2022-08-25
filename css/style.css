@@ -471,6 +471,7 @@ section {
 }
 .transbox h5 {
   padding-top: 1rem;
+  padding-left: 0.5em;
   color: #fffb00;
   text-transform: uppercase;
   font-size: 2rem;
