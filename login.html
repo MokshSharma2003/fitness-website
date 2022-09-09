@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <title>Fit India Login</title>
-    <link rel="icon" type="image/x-icon" href="images\fitness.png">
-    <link rel="stylesheet" href="css/login.css">
-    
+
+  <title>Fit India Login</title>
+  <link rel="icon" type="image/x-icon" href="images\fitness.png">
+  <link rel="stylesheet" href="css/login.css">
+
 
 </head>
+
 <body>
   <div class="wrapper">
     <div class="title-text">
@@ -22,13 +24,13 @@
         <label for="signup" class="slide signup">Signup</label>
         <div class="slider-tab"></div>
       </div>
-      <div class="form-inner">
-        <form action="#" class="login">
+      <div id="loginform" class="form-inner">
+        <form onsubmit="login()" action="#" class="login">
           <div class="field">
-            <input type="text" placeholder="Email Address" required>
+            <input id="email" type="text" placeholder="Email Address" required>
           </div>
           <div class="field">
-            <input type="password" placeholder="Password" required>
+            <input id="password" type="password" placeholder="Password" required>
           </div>
           <div class="pass-link"><a href="#">Forgot password?</a></div>
           <div class="field btn">
@@ -45,10 +47,6 @@
           <div class="field">
             <input type="password" placeholder="Password" required>
           </div>
-          <div class="field">
-            <input type="password" placeholder="Confirm password" required>
-            
-          </div>
           <div class="field btn">
             <div class="btn-layer"></div>
             <input type="submit" value="Signup">
@@ -58,6 +56,13 @@
       </div>
     </div>
   </div>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+    import { } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-auth.js"
+  </script>
+  
+  <script src="js/firebase.js"></script>
   <script src="js/login.js"></script>
 </body>
 </html>
