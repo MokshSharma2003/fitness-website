@@ -23,10 +23,8 @@ const firebaseConfig = {
     const email = event.target.elements[0].value;
 
     sendPasswordResetEmail(auth,email)
-      .then(async (userCredential) => {
+      .then(async () => {
         // Login
-        const user = userCredential.user;
-        console.log(user);
         modalTxt.innerText = 'Reset Successful\nPlease Wait, redirecting to login page'
         modal.style.display = "block";
         await delay(2000);
