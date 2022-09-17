@@ -52,7 +52,7 @@ document.getElementById("loginform").addEventListener("submit", (event) => {
       modalTxt.innerText = 'Login Successful\nPlease Wait, redirecting to home page'
       modal.style.display = "block";
       await delay(2000);
-      window.location.href = 'index.html';
+      window.location.href = 'indexloggedin.html';
     })
     .catch((error) => {
       const errorCode = error.code;
@@ -75,7 +75,7 @@ document.getElementById("signupform").addEventListener("submit", (event) => {
       modalTxt.innerText = 'Sign-Up Successful\nPlease Wait, redirecting to home page'
       modal.style.display = "block";
       await delay(2000);
-      window.location.href = 'index.html';
+      window.location.href = 'indexloggedin.html';
     })
     .catch((error) => {
       const errorCode = error.code;
