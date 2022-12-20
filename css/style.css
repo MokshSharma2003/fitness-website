@@ -518,6 +518,47 @@ section {
   text-align: center;
   
 }
+
+.banner3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  height: 900px;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  
+}
+.banner4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  height: 1380px;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  
+}
+
+.banner4 h3 {
+  padding-top: 1rem;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  text-align: left;
+}
+
+.banner3 h3 {
+  padding-top: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .banner1 h3 {
   padding-top: 1rem;
   color: #fff;
@@ -537,6 +578,8 @@ section {
   margin-right: 0px;
   text-align: left;
 }
+
+
 .banner span {
   font-size: 2rem;
   color: #FFD906;
@@ -739,7 +782,26 @@ section {
     font-size: 50%;
   }
 }
+.pagination a {
+  color: rgb(255, 255, 255);
+  float: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: inline-block;
+  font-size: 1.5rem;
+  
+}
 
-/*# sourceMappingURL=style.css.map */
+.pagination a.active {
+  background-color: rgb(255, 248, 30);
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+.pagination a:hover:not(.active) {background-color: rgb(253, 255, 213);
+  color: rgb(0, 0, 0);
+}
 
 
+  
